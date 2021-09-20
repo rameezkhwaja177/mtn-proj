@@ -1,0 +1,448 @@
+
+.floater-wrapper{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.help-floater{
+    background-color: #30588A;
+    color: #ffff;
+    height: 68px;
+    width: 68px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    text-align: center;
+    padding-top: 16px;
+    cursor: pointer;
+    padding: 9px 0px;
+}
+
+.help-floater .fa-phone{
+    font-size: 20px;
+}
+.help-floater .help-txt{
+    font-size: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    /* border: 1px solid black;
+    padding: 15px 10px 15px 10px; */
+  }
+  .head{
+      font-weight: 700;
+      font-size: 13px;
+      font-family: system-ui;
+      color: #3f3331;
+      position: relative;
+  }
+  .saveDraft{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
+  .saveDraft button{
+    float: right;
+    position: absolute;
+    right: 3%;
+    top:15px;
+    border-color: #BDBDBD !important;
+    color: #30588A !important;
+  }
+
+
+  tr{
+      border: none;
+  }
+  .content{
+      font-family: system-ui;
+  
+  }
+  .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .region-header {
+      float: left;
+  }
+  header #mini-panel-header .pane-page-logo {
+      width: auto;
+      float: left;
+  }
+  .panel-1col .panel-col {
+      width: 100%;
+  }
+  #block-panels-mini-header #logo img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+  }
+  #block-panels-mini-header #logo {
+      display: block;
+      width: 127px;
+  }
+  td{
+      min-width: 50px;
+      margin: 0;
+      padding: 0;
+  }
+  .headA{
+      padding: 20px 0 20px 0;
+  }
+  .tdstyle{
+      border: 1px solid;
+      padding: 12px;
+      border-color: rgb(128 128 128 / 54%);
+  }
+  body {
+      font-family: Open Sans,Arial,sans-serif;
+      font-size: 18px;
+      line-height: 1.666666667;
+      color: #525252;
+      background-color: #fff;
+  }
+  .investigationM{
+      text-align: center;
+      color: #45668d;
+      float: unset;
+      font-weight: bold;
+  }
+  
+  .headerM{
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .infoText{
+      color: #4c4e53;
+      text-align: center;
+  }
+  .butTable{
+      padding: 45px 100px 20px 100px;
+      display:contents;
+  }
+  .butTable button{
+      font-weight: 700 !important;
+      border-radius: 2px !important;
+      padding: 10px 46px !important;
+      margin: 45px 100px 45px 26px;
+  }
+  .btnCancel{
+      float: left;
+      color: #5b759a !important;
+  
+  }
+  
+  .btnBack{
+      margin: 0 18px 0 0px !important;
+  }
+  .btnNext{
+      background: #009fd9 !important;
+      color: white !important;
+  }
+  .btnBack{
+      background: white !important;
+      color: #009fd9 !important;
+      border-color: #009fd9 !important;
+  }
+  
+  .patientI{
+      border-bottom: 3px solid;
+      margin: 10px 0 14px 0;
+      padding: 0px 0 9px 0;
+  }
+  
+  
+  .patientI span{
+      font-size: 17px;
+      font-weight: bold;
+  }
+  
+  
+  ul.nav {
+      margin:0;
+      padding:0;
+      list-style:none;
+      /* height:36px;  */
+      /* background:#0d7963;  */
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:13px;  
+      /* display: inline-table;  */
+      border-bottom: 2px solid #00467f;
+      padding: 0 0 0 85px;
+  
+  }
+  ul.nav li {
+      /* border-right: 1px solid #189b80; */
+      float: left;
+      position: inherit;
+      display: initial;
+  }
+  ul.nav a {
+      display: block !important;
+      padding: 0 28px !important;
+      color: #b5bdc5;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-decoration: none;
+  }
+
+  ul.nav a:hover, ul.nav li.current a ,ul.nav a:active,ul.nav a:focus,ul.nav li.current a{
+    text-decoration: none;
+    background: none;
+    margin: 0px 0 0 0;
+  }
+  /* ul.nav a:active,ul.nav a:focus,ul.nav li.current a {
+      text-decoration: none;
+      background: none;
+      margin: -5px 0 0 0;
+      color: #45668d;
+      background-color: white !important;
+      border-bottom: 3px solid #0299dc;
+  } */
+  .NavM{
+      padding: 0 0 50px 0;
+  }
+  ul.nav a:hover, ul.nav li.current a ,ul.nav a:active,ul.nav a:focus,ul.nav li.current a{
+    text-decoration: none;
+    background: none;
+    margin: 0px 0 0 0;
+    color: #45668d;
+  }
+
+  @media (min-width: 1200px){
+   .headerM {
+      width: 1300px;
+   }
+  }
+
+  @media screen and (min-width: 1100px) {
+    ul.nav a:hover, ul.nav li.current a ,ul.nav a:active,ul.nav a:focus,ul.nav li.current a{
+        text-decoration: none;
+        background: none;
+        margin: 0px 0 0 0;
+        color: #45668d;
+        /* background-color: white !important; */
+        border-bottom: 3px solid #0299dc;
+    }
+  }
+  @media screen and (max-width: 475px) {
+
+    ul.nav {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: auto;
+        line-height: 36px;
+        /* background: #0d7963; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        /* display: inline-table; */
+        border-bottom: 2px solid #00467f;
+        padding: 0 0 
+  }
+
+  ul.nav li{
+    width: 50%;
+  }
+
+
+  .ul.nav a:active, ul.nav a:focus, ul.nav li.current a{
+    margin: 0px 0 0 0;
+  }
+  .mainTable{
+      overflow: scroll;
+  }
+  ul.nav a:hover, ul.nav li.current a, ul.nav a:active, ul.nav a:focus, ul.nav li.current a{
+    border-bottom: 0px solid #0299dc;
+    margin: 0px 0 0 0
+  }
+  .butTable{
+    display: contents;
+  }
+  .butTable button{
+    padding: 10px 20px !important;
+    margin: 21px 0;
+  }
+ 
+  .butTable1 button{
+      left: 0;
+    right: 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90%;
+  }
+
+  ul.nav a{
+    padding: 0 10px !important;
+  }
+  .headA{
+    margin: 65px 0 0 0;
+  }
+  .investigationM{
+    text-align:right
+  }
+}
+.formAdjust{
+    width: 900px;
+    margin: 0 auto;
+    }
+        textarea textarea.slds-textarea {
+        background-color: #FDFCFC;
+    }
+    input.slds-input, select.slds-select {
+    height: 40px;
+    color: #4E5054;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 transparent;
+}
+.janssen-gray {
+    color: #4E5054!important;
+}
+.slds-input {
+    background-color: #fff;
+    color: #16325c;
+    border: 1px solid #d8dde6;
+    border-radius: .25rem;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 .75rem;
+    line-height: 1.875rem;
+    min-height: calc(1.875rem + (1px * 2));
+}
+.janssen-error-red-border {
+    border-color: #FF2D55!important;
+}
+.slds-form-element__label, .slds-form-element__help {
+    font-size: 12pt;
+    margin-bottom: 0;
+}
+.janssen-error-red {
+    color: #FF2D55!important;
+}
+.janssen-error-red ul{
+    padding: 3px 0 5px 15px !important;
+}
+.janssenui-inputtext input.slds-input, .janssenui-select select.slds-select, .janssenui-textarea textarea.slds-textarea {
+    background-color: #FDFCFC;
+}
+.slds-select_container select.slds-select {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-image: url(data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="width:100%;height:100%;" preserveAspectRatio="xMaxYMin meet"><polygon points="63 30, 50 45, 75 45" style="fill:%234E5054"/><polygon points="63 70, 50 55, 75 55" style="fill:%234E5054"/></svg>); */
+}
+.slds-select_container .slds-select {
+    padding-right: 2rem;
+}
+input.slds-input, select.slds-select {
+    height: 40px;
+    color: #4E5054;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 transparent;
+}
+.slds-select {
+    background-color: #fff;
+    color: #16325c;
+    border: 1px solid #d8dde6;
+    border-radius: .25rem;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    height: calc(1.875rem + (1px * 2));
+}
+.slds-checkbox [type=checkbox] {
+    width: 20px;
+    height: 7px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    /* position: absolute; */
+    z-index: 1000;
+    margin: 0 0 0 -29px;
+}
+input.slds-input, select.slds-select {
+    height: 40px;
+    color: #4E5054;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 transparent;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.janssenui-checkbox .slds-checkbox {
+    padding-left: 31px;
+}
+.slds-form-element__control .slds-checkbox, .slds-form-element__control .slds-radio {
+    display: block;
+}
+.slds-checkbox {
+    display: inline-block;
+}
+.janssenui-checkbox .slds-checkbox .slds-form-element__label {
+    padding-left: 3px;
+    font-size: 18px;
+    line-height: 1;
+}
+.slds-checkbox .slds-form-element__label {
+    display: inline;
+    vertical-align: middle;
+    font-size: .8125rem;
+}
+.slds-form-element__label, .slds-form-element__help {
+    font-size: 12pt;
+    margin-bottom: 0;
+}
+.slds-form-element .slds-checkbox [type=checkbox]+.slds-checkbox--faux, .slds-form-element .slds-checkbox [type=checkbox]+.slds-checkbox__label .slds-checkbox--faux, .slds-form-element .slds-checkbox [type=checkbox]~.slds-checkbox--faux {
+    margin-right: .5rem;
+}
+
+.janssen-light-gray-background {
+    background-color: #F8F7F6!important;
+}
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 700px){ /* This media query work for mobile devices only not on laptop */
+    .butTable button{
+        margin: 45px 0px 45px 0px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 750px){
+    ul.nav {
+            padding: 0 0 0 5px;
+    }
+    .butTable{
+        display: contents
+    }
+    .butTable button{
+        margin: 20px;
+    }
+}
+@media only screen and (hover: none) and (pointer: coarse){
+    .mobileAdjustRow {
+          margin:0
+      }
+  }

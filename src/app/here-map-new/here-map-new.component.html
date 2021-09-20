@@ -1,0 +1,15 @@
+<div style="padding: 10px 0">  
+  <input type="text" placeholder="Search hotels..." [(ngModel)]="textData" style="width: 90%;" />  
+  <button (click)="filerres(textData)">Search</button>  
+</div>  
+<div style="padding: 10px 0">  
+  <button (click)="filerres('KFC')">KFC</button>
+  <button (click)="filerres('Burger & King')">Burger & King</button>
+  <button (click)="filerres('McDonald’s')">Mac Donalds</button>
+  <button (click)="filerres('Subway')">Subway</button>
+
+  
+</div>    
+
+<div #map style="width: 100%;height: 80vh;"></div>
+ 

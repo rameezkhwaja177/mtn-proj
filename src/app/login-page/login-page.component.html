@@ -1,0 +1,39 @@
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto" id="GetvalueVal">
+        <div class="card border-0 shadow rounded-3 my-5">
+          <div class="row">
+            <div *ngFor="let customer of customers1 | async; let i=index">
+              <span >{{customer | json }}</span>
+            </div>
+            <div class="form-group">
+              <div class="janssenui-inputtext slds-form-element primary cJanssenUI_InputText" id="1114:82;a_form._variable_patientFirstName_19">
+                  <label class="slds-form-element__label karbon-font-medium janssen-gray" style="padding-bottom:1px" for="1114:82;a_form._variable_patientFirstName_19__input"></label>
+                  <div class="slds-form-element__control">
+                      <input value=""  [(ngModel)]="employeeDetails.email"  class="fname slds-input karbon-font janssen-gray ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" data-type="email" maxlength="30" id="1114:82;a_form._variable_patientFirstName_19__input" type="email" placeholder="Email" required="required" aria-invalid="true" />
+                  </div>
+              </div> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <div class="janssenui-inputtext slds-form-element primary cJanssenUI_InputText" id="1114:82;a_form._variable_patientFirstName_19">
+                  <label class="slds-form-element__label karbon-font-medium janssen-gray" style="padding-bottom:1px" for="1114:82;a_form._variable_patientFirstName_19__input"></label>
+                  <div class="slds-form-element__control">
+                      <input value=""  [(ngModel)]="employeeDetails.password"  class="fname slds-input karbon-font janssen-gray ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" data-type="password" maxlength="20" minlength="6" id="1114:82;a_form._variable_patientFirstName_19__input" type="password" placeholder="Password"  required="required" aria-invalid="true" />
+                  </div>
+              </div> 
+            </div> 
+          </div> 
+          <div class="row d-grid margin form-group">    
+            <button class="btn btn-primary btn-login text-uppercase fw-bold fw-adjust" type="submit" (click)="addcustomer()">Sign
+              in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
