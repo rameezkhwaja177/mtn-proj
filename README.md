@@ -48,5 +48,9 @@ jQueryExampleModal() { // to show a modal with dummyId
 }
 
 
-
-
+## Deployment-------------------------
+git commit -m "first commit"
+git remote add origin https://github.com/rameezkhwaja177/mtn-proj.git
+git push
+ng build --prod --base https://rameezkhwaja177.github.io/mtn-proj/
+ngh //Before this step make sure to remove file out of mtn-proj folder to dist folder
